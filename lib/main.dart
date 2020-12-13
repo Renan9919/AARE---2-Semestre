@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       ),
       routes: <String, WidgetBuilder>{
         AdicionarPokemon.routeName: (BuildContext context) => new AdicionarPokemon(title: "Adicionar Pokemon"),
-        Homepage.routeName: (BuildContext context) => new Homepage(title: "Lista de Pokemons"),
       },
       
       home: Homepage(title: 'AARE - sub')
